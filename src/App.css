@@ -32,7 +32,6 @@ body {
 }
 body.dark-mode {
   background-color: #121212;
-  color: white;
 }
 .container {
   background-color: #ffffff;
@@ -62,6 +61,7 @@ input {
   font-size: 18px;
   transition: border 0.3s;
   font-weight: 600;
+  color: black;
 }
 input::placeholder {
   font-size: 18px;
@@ -84,9 +84,7 @@ input:focus {
   -moz-appearance: none;
   appearance: none;
 }
- #priority .dark-mode option{
-    color: black;
-}
+
 label {
   display: block;
   margin-bottom: 5px;
